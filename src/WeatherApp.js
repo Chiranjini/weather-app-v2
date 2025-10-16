@@ -6,7 +6,7 @@ function WeatherApp() {
   const [weather, setWeather] = useState(null);
 
   const fetchWeather = async () => {
-    const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
+    const apiKey = 'eb99711a345b09348893bd387ad487e4'; 
     try {
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
